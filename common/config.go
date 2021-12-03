@@ -2,11 +2,11 @@ package common
 
 var Userdict = map[string][]string{
 	"ftp":        {"ftp", "admin", "www", "web", "root", "db", "wwwroot", "data"},
-	"mysql":      {"root", "mysql"},
-	"mssql":      {"sa", "sql"},
-	"smb":        {"administrator", "admin", "guest"},
-	"postgresql": {"postgres", "admin"},
-	"ssh":        {"root", "admin"},
+	"mysql":      {"root"},
+	"mssql":      {"sa"},
+	"smb":        {"administrator", "admin"},
+	"postgresql": {"postgres"},
+	"ssh":        {"root"},
 	"mongodb":    {"root", "admin"},
 }
 
